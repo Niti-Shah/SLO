@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/styles.css">
+</head>
+<body class="bg-white" >
+  <div class="m-10 bg-white" >
+    <div class="font-mono md:grid md:grid-cols-3 md:gap-6">
+      <div class="md:col-span-1">
+        <div class=" px-4 sm:px-0">
+          <h1 class="text-4xl font-medium leading-6 text-gray-600"><strong>Member Profile</strong></h1>
+          <br>
+          <p class="mt-1 text-sm text-gray-600">
+            For successful communications please ensure your contact details and preferences are kept up to date.
+          </p>
+          <br>
+        </div>
+      </div>
+      <div class=" mt-5 md:mt-0 md:col-span-2" >
+        <form action="#"  method="POST">
+          <div class=" shadow sm:rounded-md sm:overflow-hidden">
+            <div class="px-4 py-5  space-y-6 sm:p-6 bg-blue-200" >
+             <p class=" text-lg text-gray-500" ><strong>Your current profile details</strong></p>
+              <div class="col-span-6 sm:col-span-4">
+                <div class="relative border border-gray-600 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                  <label for="first-name" class="absolute -top-2 left-2 -mt-px inline-block px-1  w-auto text-xs font-medium text-gray-900 bg-blue-200" >First Name: (Public)</label>
+                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-blue-200" placeholder="">
+                </div>
+              </div>
+              <div class="col-span-6 sm:col-span-4">
+                <div class="relative border border-gray-600 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                  <label for="last-name" class="absolute -top-2 left-2 -mt-px inline-block px-1  text-xs font-medium text-gray-900 bg-blue-200" >Last Name: (Public)</label>
+                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-blue-200"   placeholder="">
+                </div>
+              </div>
+              <div class="col-span-6 sm:col-span-4">
+                <div class="relative border border-gray-600 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                  <label for="email" class="absolute -top-2 left-2 -mt-px inline-block px-1  text-xs font-medium text-gray-900 bg-blue-200" >Email</label>
+                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-blue-200"   placeholder="">
+                </div>
+              </div>
+              <div class="px-4 py-3 text-center bg-blue-200 " >
+                <button  type="submit" class="w-full bg-white inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-blue-200 bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >
+                  update Profile
+                </button>
+              </div>
+             <!-- <div class="sm:flex sm:items-center w-full">
+              <div class="sm:col-span-3 ">
+                <label for="building" class="block text-sm font-medium text-gray-700">
+                  Building Name/Number
+                </label>
+                <div class="border border-gray-600 mt-1  rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm ">
+                </div>
+              </div>
+                <div class="w-1/2 sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:flex sm:items-center">
+                  <button type="button" class=" items-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
+                    Change plan
+                  </button>
+                </div>
+              </div>
+            
+          </div> -->
+          <div class="pt-0">
+            <div>
+              <h1 class="text-base leading-6 font-medium text-gray-900">
+                Phone Number:
+              </h1>
+            </div>
+
+          <div class=" grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6 ">
+          
+            <div class="sm:col-span-3 ">
+              <div class="border border-gray-600 mt-1  rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="bg-blue-200 block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm ">
+              </div>
+            </div>
+
+            <div class="sm:col-span-3 ">
+              <button type="button" class="w-full px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-blue-200 bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
+                Edit Phone Number
+              </button>
+            </div>
+          </div>
+          </div>
+
+          <div class="pt-0">
+            <div>
+              <h1 class="text-base leading-6 font-medium text-gray-900">
+                Password:
+              </h1>
+            </div>
+
+          <div class=" grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6 ">
+          
+            <div class="sm:col-span-3 ">
+              <div class="border border-gray-600 mt-1  rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="bg-blue-200 block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm ">
+              </div>
+            </div>
+
+            <div class="sm:col-span-3 ">
+              <button type="button" class="w-full px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-blue-200 bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
+                Change password
+              </button>
+            </div>
+          </div>
+          </div>
+
+
+         </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+ 
+</body>
+</html>
