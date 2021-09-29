@@ -23,7 +23,7 @@
       <div class=" mt-5 md:mt-0 md:col-span-2" >
         <form action="#"  method="POST">
           <div class=" shadow sm:rounded-md sm:overflow-hidden">
-            <div class="px-4 py-5  space-y-6 sm:p-6 bg-blue-200" >
+            <div class="px-4 py-5  space-y-6 sm:p-6 bg-white" >
                 <div class="relative flex items-start">
                     <div class="flex items-center h-5">
                       <input id="comments" aria-describedby="comments-description" name="comments" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
@@ -35,21 +35,41 @@
                     </div>
                 </div>
                
-              <div class="col-span-6 sm:col-span-4">
+              <!-- <div class="col-span-6 sm:col-span-4">
                 <div class="relative border border-gray-600 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
-                  <label for="phno" class="absolute -top-2 left-2 -mt-px inline-block px-1  w-auto text-xs font-medium text-gray-900 bg-blue-200" >Phone Number</label>
-                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-blue-200" placeholder="">
+                  <label for="phno" class="absolute -top-2 left-2 -mt-px inline-block px-1  w-auto text-xs font-medium text-gray-900 bg-white" >Phone Number</label>
+                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-white" placeholder="">
                 </div>
               </div>
               <div class="col-span-6 sm:col-span-4">
                 <div class="relative border border-gray-600 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
-                  <label for="altphno" class="absolute -top-2 left-2 -mt-px inline-block px-1  text-xs font-medium text-gray-900 bg-blue-200" >Alternate Phone Number (Optional)</label>
-                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-blue-200"   placeholder="">
+                  <label for="altphno" class="absolute -top-2 left-2 -mt-px inline-block px-1  text-xs font-medium text-gray-900 bg-white" >Alternate Phone Number (Optional)</label>
+                  <input type="text" name="name" id="name" class="  block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm bg-white"   placeholder="">
+                </div>
+              </div> -->
+              <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
+          
+                <div class=" sm:col-span-8 ">
+                  <label for="postal-code" class="block text-sm font-medium text-gray-700">
+                    Phone Number
+                  </label>
+                  <div class="border border-gray-600 mt-1  rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                    <input type="text" name="first-name" id="postal-code" autocomplete="given-name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm ">
+                  </div>
+                </div>
+
+                <div class=" sm:col-span-8 ">
+                  <label for="postal-code" class="block text-sm font-medium text-gray-700">
+                    Alternate Phone Number (Optional)
+                  </label>
+                  <div class="border border-gray-600 mt-1  rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-700 focus-within:border-gray-700">
+                    <input type="text" name="first-name" id="postal-code" autocomplete="given-name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:outline-none sm:text-sm ">
+                  </div>
                 </div>
               </div>
-              
-              <div class="px-4 py-3 text-center bg-blue-200 " >
-                <button  type="submit" class=" bg-white inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-blue-200 bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >
+
+              <div class="px-4 py-3 text-center bg-white " >
+                <button  type="submit" class=" bg-white inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >
                   update 
                 </button>
               </div>
